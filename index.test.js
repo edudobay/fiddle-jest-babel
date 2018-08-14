@@ -1,5 +1,5 @@
-const index = require('./index')
+import { sum } from './index'
 
 test('1 + 2 equals 3', () => {
-    expect(index.sum(1, 2)).toBe(3)
+    expect(sum(1, 2)).toBe(3)
 })
